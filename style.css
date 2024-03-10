@@ -582,7 +582,7 @@ blockquote p {
 ********************************************************* */
 
 .services, .service-box {
-  text-align: justify;
+  text-align: left;
 }
 
 .services h2{
@@ -638,15 +638,6 @@ blockquote p {
 }
 
 .recent-work {
-  background: #6578bc; /* Old browsers */
-  background: -moz-linear-gradient(left,  #6578bc 0%, #0395DE 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6578bc), color-stop(100%,#0395DE)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  #6578bc 0%,#0395DE 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  #6578bc 0%,#0395DE 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  #6578bc 0%,#0395DE 100%); /* IE10+ */
-  background: linear-gradient(to right,  #6578bc 0%,#0395DE 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6578bc', endColorstr='#0395DE',GradientType=1 ); /* IE6-9 */
-
   position: relative;
   margin-bottom: 1em;
 /*border-radius*/
@@ -658,6 +649,10 @@ blockquote p {
 .portfolio-filter {
   margin: 40px 0 0;
   text-align: center;
+}
+
+.portfolio-grid{
+	margin-bottom: 4em;
 }
 
 .portfolio-items .mix {
@@ -689,6 +684,28 @@ blockquote p {
   color: #0395DE;
 }
 
+.portfolio-items .content p{	
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.portfolio-items .content p span{
+	color: #0395DE;
+	background: transparent;	
+}
+
+.portfolio-items .content ul{
+	list-style-type:disc;
+	text-align: left;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.text-italics{
+  font-style: italic;	
+}
+
 .recent-work a {
   position: relative;
   display: block;
@@ -704,7 +721,7 @@ blockquote p {
 }
 
 .recent-work:hover img {
-  opacity: .35;
+  /* opacity: .35; */
 }
 
 .overlay {
