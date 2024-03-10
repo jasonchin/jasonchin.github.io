@@ -789,6 +789,16 @@ blockquote p {
 	display: inline-block;
 	margin-top: 40px;
 }
+.work-narrative-1 {
+	width: 40%;
+	display: inline-block;
+	margin-top: 40px;
+}
+.work-narrative-2 {
+	width: 40%;
+	display: inline-block;
+	margin-top: 40px;
+}
 
 /* *********************************************************
   Clients Logos Section 

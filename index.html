@@ -327,15 +327,13 @@
 						<div class="col-1-2 mix illustration">
                             <div class="content">
 								<p class="text-italics">NOTE: Due to NDA, I am unable to disclose many details about this project. Therefore what is outlined below is a mix of public information and high-level descriptions of general systems and features used for a game of this kind of genre.</p>
-								<p>This title was an unannounced first-party multiplayer PvE live service action game for <span>PlayStation 5 and PC</span>. I was involved with this project from its inception, working from the pitching phase, building up the intial prototypes, iteration on it's design and implementing it into a production environment.</p>
-								<p>As Lead Gameplay Programmer, I was intimitately involved with many aspects of the game such as the <span>core melee and ranged combat systems, enemy AI, camera, controls and traversal mechanics.</span></p>
-								<p>As we progressed into production, I was entrusted to lead a multidisciplinary team as one of the <span>key feature owners.</span></p>
-								<p>The engine we used for production was an in-house engine that utilised <span>determinism, rollback and ECS.</span></p>
+								<p>This was an unannounced game planned to be released on the <span>PS4</span> as a first-party Sony PlayStation title. As part of the New Entertainment Team within London Studio, the remit was for this game to bring in a <span>new audience</span> of non-typical gamers.</p>
+								<p>There was a <span>narrative heavy focus</span>, ensuring that even players with no gaming experience has a low barrier to entry. Many parts of the game was reliant on how we allowed <span>real-time manipulation of live action footage</span> to give players a <span>level of interactivity</span> that wouldn't usually be possible.</p>
                             </div>
                         </div>
                         <div class="col-1-2 mix photography">
                             <div class="content">
-                                <div class="recent-work work-multiplayer-0">
+                                <div class="recent-work work-narrative-0">
                                     <img src="images/work/narrative-0.jpg" alt="">
                                 </div>
                             </div>
@@ -343,48 +341,44 @@
 					</div>
 				</section>
 				
-				<!-- First Playable -->
+				<!-- Networking and intuitive controls -->
                 <section class="grid grid-pad portfolio-grid">					
                     <div class="portfolio-items" >
                         <div class="col-1-2 mix illustration">
                             <div class="content work-image-content">
-                                <div class="recent-work work-multiplayer-1">
-                                    <img src="images/work/multiplayer_action_1.png" alt="">
+                                <div class="recent-work work-narrative-1">
+                                    <img src="images/work/narrative-1.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-1-2 mix photography">
                             <div class="content">				
-								<h3>First Playable</h3>
-								<p>The First Playable build was a showcase of many of the <span>core combat systems</span> that we wanted to build out for this title. It contained many traditional mechanics and structures that you'd might find of this kind of game but also included some key unique features too.</p>
-								<p>As a Lead, I constantly drove the team to maintain a <span>rapid prototyping mentality</span> and workflows to quickly iterate on the title, making sure they stayed focused on the goals of the project and quickly making decisions to pivot when it was needed. The results of which kept the team <span>highly enganged and highly productive</span>. This consistently  produced highly positive in our playtests. </p>
-								<p>I also played a <span>key creative role</span> in many core aspects of the design. Working intimately with the Lead Designers, I would provide <span>critical feedback</span> and make pivotal suggestions for improvement. I would often make <span>proposals for new systems or gameplay improvements</span> that would end up as key components to the core design.</p>
-								<p>My other main responsibility was to implement many of the features that went into the build, with a particular focus on striking a balance between creating a <span>strong maintainable structure and allowing for rapid turnarounds</span>. </p>
+								<h3>Networking and Intuitive Controls</h3>
+								<p>One of my responsibilities was outlining the <span>network communication pipeline</span> to relay messages from an external device. As one of the roles of this device was for making the game more accessible to players, it was paramount that it was as responsive as possible. As such, a lot of my effort was spent on <span>reducing input lag</span> and making those controls as <span>intuitive</span> as possible. </p>
+								<p>Various techniques were used to ensure input lag was kept at a minimum, including optimisational solutions such as bit packing data and ensuring messages was sent via UDP.</p>
+								<p>Feedback was also provided using both sound and haptics to maintain a sense of <span>weight to the player's interactions</span>. I also <span>contributed creatively</span> in designing the different ways that players could interact with the game.</p>
                             </div>
                         </div>
 					</div>
 				</section>
 						
-				<!-- Combat Systems -->
+				<!-- Real-time Manipulation -->
 			   <section class="grid grid-pad portfolio-grid">
                     <div class="portfolio-items" >
 						<div class="col-1-2 mix illustration">
                             <div class="content">
-								<h3>Combat Systems</h3>
-								<p>In particular I had a big role in defining many of the combat systems required in both the <span>technical and creative aspects</span>.  </p>
-								<p>I defined and built how many of the <span>melee combat</span> systems works, including:</p>
-								<ul><li>Hitbox and hurtboxes systems</li>
-								<li>Combo systems</li>
-								<li>Hitstop implementations</li>
-								<li>Animation cancelling</li>
-								<li>Input handling so that we can give the most immediate feedback to the player</li></ul>
-								<p>I was also responsible for building out how our targeting system works to support our <span>ranged combat</span>. This included implementing many of the ranged mechanics and how developing how our camera functioned.  </p>
+								<h3>Real-time Manipulation</h3>
+								<p>A key feature was to allow players to <span>manipulate live action footage in real-time</span>. I was responsible for many of the key ingredients that went into this, including:</p>
+								<ul><li>Incorporating vector based motion blur</li>
+								<li>Implementing photorealistic camera lens distortion</li>
+								<li>Reconstructing depth data from flat videos</li>
+								<li>Tracking of moving objects throughout the scene</li></ul>
                             </div>
                         </div>
                         <div class="col-1-2 mix photography">
                             <div class="content work-image-content">
-                                <div class="recent-work work-multiplayer-2">
-                                    <img src="images/work/multiplayer_action_2.png" alt="">
+                                <div class="recent-work work-narrative-2">
+                                    <img src="images/work/narrative-2.png" alt="">
                                 </div>
                             </div>
                         </div>
