@@ -755,6 +755,32 @@ blockquote p {
   margin-bottom: .8em;
 }
 
+.work-image-content {
+	text-align: center;
+}
+
+.work-multiplayer-1 {
+	width: 60%;
+	display: inline-block;
+	margin-top: 40px;
+}
+.work-multiplayer-2 {
+	width: 80%;
+	display: inline-block;
+	margin-top: 40px;
+}
+.work-multiplayer-3 {
+	width: 60%;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.work-multiplayer-4 {
+	width: 40%;
+	display: inline-block;
+	margin-top: 40px;
+}
+
 /* *********************************************************
   Clients Logos Section 
 ********************************************************* */
