@@ -1817,6 +1817,27 @@ footer p, footer a {
 }
 
 /*------------------------------------------------------------- 
+  Animations
+---------------------------------------------------------------*/
+.animMoveDown{
+	animation: moveDown 1s;
+}
+
+@keyframes moveDown {
+  0% { transform: translate(0, -20px)}
+  100% { transform: translate(0, 0px) }
+}
+
+.animMoveUp{
+	animation: moveUp 1s;
+}
+
+@keyframes moveUp {
+  0% { transform: translate(0, 20px)}
+  100% { transform: translate(0, 0px) }
+}
+
+/*------------------------------------------------------------- 
   Media queries
 ---------------------------------------------------------------*/
 
