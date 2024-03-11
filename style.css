@@ -799,6 +799,10 @@ blockquote p {
 	display: inline-block;
 	margin-top: 40px;
 }
+.btn-download {
+	display: inline;
+	text-align: center;
+}
 
 /* *********************************************************
   Clients Logos Section 
