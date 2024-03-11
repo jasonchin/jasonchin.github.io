@@ -34,6 +34,10 @@ Grey #ECF0F1
   General Styling 
 ********************************************************* */
 
+:root {
+  color-scheme: only light;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
