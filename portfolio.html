@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
         <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
         <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 		<!-- Fotorama -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"/>
@@ -58,9 +59,9 @@
 		<div class="parallax-section parallax1">
 			<div class="grid grid-pad">
 				<div class="col-1-1">
-					 <div class="content content-header" >
-						<h2>Hi<span>,</span> I am </br></br>Jason </br></br>Chin<span>.</span></h2>
-						<p>Lead Gameplay Programmer</p>
+					 <div class="content content-header">
+						<div class="animMoveDown"><h2>Hi<span>,</span> I am </br></br>Jason </br></br>Chin<span>.</span></h2></div>
+						<div class="animMoveUp"><p>Lead Gameplay Programmer</p></div>
 					</div>
 				</div>
 			</div>
@@ -73,7 +74,7 @@
 
 		<!-- Services Section -->
 		<div class="wrap services-wrap" id="services">
-			<section class="grid grid-pad services">
+			<section class="grid grid-pad services" data-aos="fade-up">
 				<h2>Other published work</h2>
 				
 				<div class="service-entry">
@@ -109,7 +110,7 @@
 		<!-- Snowy Mountain -->	
 		<div class="wrap grey other-work-wrap" id="work-snowy">
 			<section class="grid grid-pad other-work-grid">
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-right">
 					<h3>Snowy Mountain</h3>
 					<h4>C++ | OpenGL 3.3 | Personal project | 2017</h4>			
 					<p>OpenGL 3.3 3D rendering engine</p>
@@ -128,7 +129,7 @@
 					</ul>
 					<div class="btn-download"><a class="btn" href="https://docs.google.com/uc?export=download&id=1mbNf-nFh3DmsUHcsPparm-dgECurEie_">Download</a></div>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<iframe src="https://drive.google.com/file/d/1akudOYpELrdGJBluBvFRPLe5FfZ1mzme/preview" width="100%" height="480" allowfullscreen="true"></iframe>
 				</div>
 			</section>
@@ -157,10 +158,10 @@
 		<!-- Vici -->	
 		<div class="wrap other-work-wrap" id="work-vici">
 			<section class="grid grid-pad other-work-grid">
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-right">
 					<iframe src="https://drive.google.com/file/d/0B7yfG6gPeCfqZXpHTjZSVURvNmc/preview" width="100%" height="480" allowfullscreen="true"></iframe>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<h3>Vici</h3>
 					<h4>C++ | Cocos2d-x | Personal project | 2015</h4>			
 					<p>A local multi-player RTS game designed for smartphone devices. Players play on each side of a single device, building structures and taking command of units to defeat the opposing castle, whilst defending their own.</p>
@@ -185,7 +186,7 @@
 		<!-- Megaman -->
 		<div class="wrap grey other-work-wrap" id="work-megaman">
 			<section class="grid grid-pad other-work-grid">
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-right">
 					<h3>Mega Man Demo</h3>
 					<h4>C++ | SDL, OpenGL | Personal project | 2012</h4>			
 					<p>2D platformer engine</p>
@@ -199,11 +200,11 @@
 					</ul>
 					<div class="btn-download"><a class="btn" href="https://docs.google.com/uc?export=download&id=0B7yfG6gPeCfqdE5ub0VJNjB2VE0">Download</a></div>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<iframe src="https://drive.google.com/file/d/0B7yfG6gPeCfqUzVGOTV2SUwwc2M/preview" width="100%" height="480" allowfullscreen="true"></iframe>
 				</div>
 			</section>
-			<section class="grid grid-pad other-work-grid">
+			<section class="grid grid-pad other-work-grid" data-aos="fade-up">
 				<div class="col-1-1">
 					<div class="fotorama">
 						<img src="http://4.bp.blogspot.com/-_39oV-Tuf_k/Vf5G-k05eKI/AAAAAAAALWs/SzB1bBRKW8I/s1600/megaman0.jpg" data-caption="This is a faithful recreation of the game Megaman (Capcom 1987 NES)." />			
@@ -228,10 +229,10 @@
 		<!-- Musical Mines -->
 		<div class="wrap other-work-wrap" id="work-mines">
 			<section class="grid grid-pad other-work-grid">
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-right">
 					<iframe src="https://drive.google.com/file/d/0B7yfG6gPeCfqc0tSNnp1VWxIRkE/preview" width="100%" height="480" allowfullscreen="true"></iframe>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<h3>Musical Mines</h3>
 					<h4>C++ | SDL | Solo game jam | 2010</h4>			
 					<p>Rhythmic Minesweeper</p>
@@ -271,7 +272,7 @@
 		<!-- SudoKuest -->
 		<div class="wrap grey other-work-wrap" id="work-sudokuest">
 			<section class="grid grid-pad other-work-grid">
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-right">
 					<h3>SudoKuest</h3>
 					<h4>C# | XNA 3.1 | University individual project | 2008</h4>			
 					<p>This project was completed as my University final year project and was designed to run on both the PC and Xbox360 through the XNA architecture.</p>
@@ -297,10 +298,10 @@
 					<p>* All art and design was done by me except for the character art (Joe Madureira) and item and spell icons (Blizzard from Warcraft III). Sound effects was taken from Soundsnap.com and music is from the The Last of the Mohicans OST, Shadow of the Colossus OST and artist Daduk.</p>
 
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<iframe src="https://drive.google.com/file/d/0B7yfG6gPeCfqNWlYY2c2ZUFhUWc/preview" width="100%" height="480" allowfullscreen="true"></iframe>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<div class="btn-download"><a class="btn" href="https://docs.google.com/uc?export=download&id=0B7yfG6gPeCfqMW1Tc05oVkhVMkk">Download</a></div>
 					<div class="btn-download"><a class="btn" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=80782277-d584-42d2-8024-893fcd9d3e82">XNA Game Studio 3.1</a></div>
 					<div class="btn-download"><a class="btn" href="http://go.microsoft.com/fwlink/?LinkId=104679&usg=AFQjCNGNmla-oszdoQp-w8M1CLJXmV4tpg&sig2=7wqMvp009HVyXKqn9-H6lg">Visual C# 2008 Express Edition</a></div>
@@ -308,7 +309,7 @@
 					<div class="btn-download"><a class="btn" href="https://docs.google.com/uc?export=download&id=0B7yfG6gPeCfqR3dPQkZONjhzZXM">Report</a></div>
 					<p class="text-italics">NOTE: Due to a problem in XNA 3.1, the XNA 3.1 SDK and Visual C# 2008 Express Edition is required to run it. It will crash otherwise. The unfortunate loss of the data files means that I am unable to recompile it under that latest SDKs to fix this problem.</p>
 				</div>		
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<div class="fotorama">
 						<img src="http://2.bp.blogspot.com/-eW9zDmoRTm4/Vf5XsZbr-9I/AAAAAAAALaA/GSKUcoz9nt0/s640/Image2.jpg" data-caption="SudoKuest was my final year individual project for University. One of my aims for this project was to produce a program that far exceeded expectations. It's fully integrated into the Windows/Xbox Live network."/>
 						<img src="http://4.bp.blogspot.com/-sLf3bq_8ASM/Vf5XtkJCm0I/AAAAAAAALag/qvaR56yf1mY/s640/Image3.jpg" data-caption="The start of quest mode gives a character creation screen. Strength, agility and intelligence all affects how well the character performs."/>
@@ -347,7 +348,7 @@
 		<!-- Dice Wars -->
 		<div class="wrap other-work-wrap" id="work-dice">
 			<section class="grid grid-pad other-work-grid">
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-right">
 					<h3>Dice Wars</h3>
 					<h4>C++ | OpenGL | Personal Project | 2008</h4>			
 					<p>Based on the original turn-based strategy Flash game Dice Wars. </p>
@@ -364,11 +365,11 @@
 						<li>Press 'Q' to generate a new map</li>
 					</ul>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<iframe src="https://drive.google.com/file/d/0B7yfG6gPeCfqSEk1dGg3d1ZuVEU/preview" width="100%" height="480" allowfullscreen="true"></iframe>
 					<div class="btn-download"><a class="btn" href="https://docs.google.com/uc?export=download&id=0B7yfG6gPeCfqak4xb1N5OUtJTVU">Download</a></div>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<p></p>
 					<div class="fotorama">
 						<img data-caption="The strong AI and random map generation often results in interesting and varying scenarios occurring. Early on in this game, Yellow (Medium AI) has taken the initiative but is quite stretched. Where as Red, Pink and Blue (Easy AI) are fairly scattered across the map. Teal and Orange (Hard AI) on the other hand have worked up a smaller but more concentrated area." src="http://2.bp.blogspot.com/-ftsOyCpKsfs/Vf5TncjVQiI/AAAAAAAALY0/PHc1SC6gJ3M/s640/dws1.jpg" />
@@ -392,7 +393,7 @@
 		<!-- Diplominator AI -->
 		<div class="wrap grey other-work-wrap" id="work-diplominator">
 			<section class="grid grid-pad other-work-grid">
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-right">
 					<h3>The Diplominator AI</h3>
 					<h4>Java | University group project | 2008</h4>			
 					<p>Diplomacy is a strategic board game where players compete to dominate a map, with a strong emphasis on negotiation. The Diplominator bot was designed to be a negotiating agent to succeed in a game by forming allies to make the best strategic moves possible.</p>
@@ -404,10 +405,10 @@
 						<li>The bot performed well in press 0 (no negotations) and press 10 (simple negotations) games.</li>
 					</ul>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<iframe src="https://drive.google.com/file/d/0B7yfG6gPeCfqY0tCdHRYYmE0cU0/preview" width="640" height="480" allowfullscreen="true"></iframe>
 				</div>
-				<div class="col-1-2">
+				<div class="col-1-2" data-aos="fade-left">
 					<div class="btn-download"><a class="btn" href="https://docs.google.com/uc?export=download&id=0B7yfG6gPeCfqZnpFdU4tQzh4aVk">Download</a></div>
 					<div class="btn-download"><a class="btn" href="http://www.daide.org.uk/index.php?title=DAIDE_servers">DAIDE Server</a></div>
 					<div class="btn-download"><a class="btn" href="http://www.daide.org.uk/index.php?title=Clients">DAIDE Mapper</a></div>
@@ -416,7 +417,7 @@
 				</div>				
 			</section>
 			<section class="grid grid-pad other-work-grid">
-				<div class="col-1-1">
+				<div class="col-1-1" data-aos="fade-up">
 					<div class="fotorama">					
 						<img data-caption="This is a 10 press (forms allies) game of Diplomacy. The Diplominator bot will be playing England (Red), Russia (Purple) and Italy (Green). Everyone else will be played by DumbBot." src="http://3.bp.blogspot.com/-guwzbTDmL2E/Vf5dTdj8yII/AAAAAAAALbc/fzD3GO6bMRM/s640/Image0.jpg" />
 						<img data-caption="Here England and Italy have captured an extra base, whilst France is seems to be have the best start, having captured three extra bases." src="http://4.bp.blogspot.com/-vgbfJYJuh-M/Vf5dTeCh7dI/AAAAAAAALcU/Xx4qtkUf-JY/s640/Image1.jpg" />
@@ -506,7 +507,7 @@
 
 		<!-- Contact Section -->
 		<div class="wrap contact" id="contact">
-			<div class="grid grid-pad" >
+			<div class="grid grid-pad" data-aos="fade-up">
 				<h2>Contact and Resume</h2>
 				<div class="col-1-1" >
 					<div class="content address">
@@ -593,5 +594,29 @@
 		  }
 		</script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				// Global settings:
+				disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+				startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+				initClassName: 'aos-init', // class applied after initialization
+				animatedClassName: 'aos-animate', // class applied on animation
+				useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+				disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+				debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+				throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+				// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+				offset: 120, // offset (in px) from the original trigger point
+				delay: 0, // values from 0 to 3000, with step 50ms
+				duration: 400, // values from 0 to 3000, with step 50ms
+				easing: 'ease', // default easing for AOS animations
+				once: true, // whether animation should happen only once - while scrolling down
+				mirror: false, // whether elements should animate out while scrolling past them
+				anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+			});
+		</script>
+
 	</body>
 </html>
