@@ -138,9 +138,18 @@ blockquote p {
 }
 
 .svgTetris {
-  bottom: 0;
-  position: relative;
-  display: block;
+	bottom: 0;
+	position: relative;
+	display: block;
+	/* border: 2px solid red; */
+	margin-top: -100px;
+}
+
+.svgGrey {
+  fill: white;
+  stroke: white;
+  background: #ECF0F1;
+	margin-top: 0px;
 }
 
 .curveUpColor {
@@ -162,6 +171,75 @@ blockquote p {
 .curveGrey {
   fill: #ECF0F1;
   stroke: #ECF0F1;
+}
+
+.svgPacmanFrame{
+	text-align: center;	
+	width: 100%;
+	background: #ECF0F1;
+	margin-top: -100px;
+	/* border: 2px solid blue;	 */
+	padding-bottom: 0px;
+	display: block;
+	bottom: 0px;
+	height: 100px;
+	white-space: nowrap;
+}
+
+.svgFrameGrey{
+	background: #ECF0F1;
+	margin-top: 0px;
+}
+
+.svgPacman {
+  background: transparent;
+  width: 100px;	
+  bottom: 0;
+  position: relative;
+  /* border: 2px solid red;	 */
+}
+.svgPacman circle {
+  stroke: white;
+  stroke-dasharray: 126,100;
+  stroke-dashoffset: -15;
+  stroke-width: 50%;
+  fill: none;
+}
+
+.svgPacmanPellet {
+  background: transparent;
+  width: 200px;	
+  bottom: 0;
+  position: relative;
+  /* border: 2px solid red;	 */
+}
+.svgPacmanPellet circle {
+  fill: white;
+}
+
+.svgPacmanGrey {
+  background: transparent;
+  width: 100px;	
+  bottom: 0;
+  position: relative;
+  /* border: 2px solid red;	 */
+}
+.svgPacmanGrey circle {
+  stroke: #ECF0F1;
+  stroke-dasharray: 126,100;
+  stroke-dashoffset: -15;
+  stroke-width: 50%;
+  fill: none;
+}
+.svgPacmanPelletGrey {
+  background: transparent;
+  width: 200px;	
+  bottom: 0;
+  position: relative;
+  /* border: 2px solid red;	 */
+}
+.svgPacmanPelletGrey circle{
+	fill: #ECF0F1;
 }
 
 /* *********************************************************
