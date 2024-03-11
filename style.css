@@ -64,6 +64,10 @@ a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
           transition: all .12s linear;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   font-size: 1em;
   line-height: 1.7em;
