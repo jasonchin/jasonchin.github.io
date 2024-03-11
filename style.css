@@ -138,9 +138,18 @@ blockquote p {
 }
 
 .svgTetris {
-  bottom: 0;
-  position: relative;
-  display: block;
+	bottom: 0;
+	position: relative;
+	display: block;
+	/* border: 2px solid red; */
+	margin-top: -100px;
+}
+
+.svgGrey {
+  fill: white;
+  stroke: white;
+  background: #ECF0F1;
+	margin-top: 0px;
 }
 
 .curveUpColor {
@@ -162,6 +171,75 @@ blockquote p {
 .curveGrey {
   fill: #ECF0F1;
   stroke: #ECF0F1;
+}
+
+.svgPacmanFrame{
+	text-align: center;	
+	width: 100%;
+	background: #ECF0F1;
+	margin-top: -100px;
+	/* border: 2px solid blue;	 */
+	padding-bottom: 0px;
+	display: block;
+	bottom: 0px;
+	height: 100px;
+	white-space: nowrap;
+}
+
+.svgFrameGrey{
+	background: #ECF0F1;
+	margin-top: 0px;
+}
+
+.svgPacman {
+  background: transparent;
+  width: 100px;	
+  bottom: 0;
+  position: relative;
+  /* border: 2px solid red;	 */
+}
+.svgPacman circle {
+  stroke: white;
+  stroke-dasharray: 126,100;
+  stroke-dashoffset: -15;
+  stroke-width: 50%;
+  fill: none;
+}
+
+.svgPacmanPellet {
+  background: transparent;
+  width: 200px;	
+  bottom: 0;
+  position: relative;
+  /* border: 2px solid red;	 */
+}
+.svgPacmanPellet circle {
+  fill: white;
+}
+
+.svgPacmanGrey {
+  background: transparent;
+  width: 100px;	
+  bottom: 0;
+  position: relative;
+  /* border: 2px solid red;	 */
+}
+.svgPacmanGrey circle {
+  stroke: #ECF0F1;
+  stroke-dasharray: 126,100;
+  stroke-dashoffset: -15;
+  stroke-width: 50%;
+  fill: none;
+}
+.svgPacmanPelletGrey {
+  background: transparent;
+  width: 200px;	
+  bottom: 0;
+  position: relative;
+  /* border: 2px solid red;	 */
+}
+.svgPacmanPelletGrey circle{
+	fill: #ECF0F1;
 }
 
 /* *********************************************************
@@ -798,6 +876,10 @@ blockquote p {
 	width: 40%;
 	display: inline-block;
 	margin-top: 40px;
+}
+.btn-download {
+	display: inline;
+	text-align: center;
 }
 
 /* *********************************************************
@@ -1623,6 +1705,46 @@ footer p, footer a {
 }
 
 /* *********************************************************
+  Other work
+********************************************************* */
+.return-home {
+	text-align: center;
+}
+
+.other-work-grid {
+	margin-bottom: 4em;
+}
+
+.other-work-wrap {
+	text-align: center;
+}
+
+.other-work-wrap h3 {
+	margin-bottom: 1em;
+}
+
+.other-work-wrap p {
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.other-work-wrap ul {
+	list-style-type:disc;
+	text-align: left;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.fotorama {
+	text-align: center;
+}
+
+.fotorama__wrap {
+	margin: auto;
+}
+
+/* *********************************************************
   Loader
 ********************************************************* */
 
@@ -1692,6 +1814,27 @@ footer p, footer a {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+}
+
+/*------------------------------------------------------------- 
+  Animations
+---------------------------------------------------------------*/
+.animMoveDown{
+	animation: moveDown 1s;
+}
+
+@keyframes moveDown {
+  0% { transform: translate(0, -20px)}
+  100% { transform: translate(0, 0px) }
+}
+
+.animMoveUp{
+	animation: moveUp 1s;
+}
+
+@keyframes moveUp {
+  0% { transform: translate(0, 20px)}
+  100% { transform: translate(0, 0px) }
 }
 
 /*------------------------------------------------------------- 
