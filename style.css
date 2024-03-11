@@ -24,7 +24,7 @@
 
 
 [Color codes]
-Green #0395DE
+Green #0277BD
 Dark Blue #16a085
 Grey #ECF0F1
 
@@ -33,6 +33,10 @@ Grey #ECF0F1
 /* *********************************************************
   General Styling 
 ********************************************************* */
+
+:root {
+  color-scheme: only light;
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -49,7 +53,7 @@ Grey #ECF0F1
 }
 
 a {
-  color:#0395DE;
+  color:#0277BD;
 }
 
 a:hover {
@@ -62,6 +66,10 @@ a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
      -moz-transition: all .12s linear;
        -o-transition: all .12s linear;
           transition: all .12s linear;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 body {
@@ -257,7 +265,7 @@ blockquote p {
   -webkit-border-radius: 30px;
      -moz-border-radius: 30px;
           border-radius: 30px;
-  background:#0395DE;
+  background:#0277BD;
 }
 
 .btn:hover, .btn:focus, .btn-current {
@@ -378,12 +386,12 @@ blockquote p {
 
 .btn-ghost:hover {
   border-color: transparent;
-  background-color:#0395DE;
+  background-color:#0277BD;
 }
 
 .btn-ghost-dark {
-  border-color: #0395DE;
-  color: #0395DE;
+  border-color: #0277BD;
+  color: #0277BD;
 }
 
 /* *********************************************************
@@ -513,7 +521,7 @@ blockquote p {
 }
 
 .navigation .current a, .navigation ul li a:hover, .navigation ul li a:focus {
-  color:#0395DE;
+  color:#0277BD;
 }
 
 .navigation .sub-menu {
@@ -530,7 +538,7 @@ blockquote p {
        -o-transition: all .1s linear;
           transition: all .1s linear;
   opacity: 0;
-  border-top: 1px solid#0395DE;
+  border-top: 1px solid#0277BD;
   background: #fff;
 /*box-shadow*/
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
@@ -643,7 +651,7 @@ blockquote p {
 }
 
 .parallax-section .content h2 span{
-	color: #0395DE;
+	color: #0277BD;
   background: transparent;	
 }
 
@@ -652,7 +660,7 @@ blockquote p {
   margin: 70px auto 0px auto;
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 /* *********************************************************
@@ -703,7 +711,7 @@ blockquote p {
 }
 
 .service-entry p span{
-	color: #0395DE;
+	color: #0277BD;
   background: transparent;	
 }
 
@@ -758,8 +766,8 @@ blockquote p {
 
 .filters .filter.active,
 .filters .filter:hover {
-  border: 2px solid #0395DE;
-  color: #0395DE;
+  border: 2px solid #0277BD;
+  color: #0277BD;
 }
 
 .portfolio-items .content p{	
@@ -768,7 +776,7 @@ blockquote p {
 }
 
 .portfolio-items .content p span{
-	color: #0395DE;
+	color: #0277BD;
 	background: transparent;	
 }
 
@@ -922,8 +930,8 @@ blockquote p {
 .cl-client-carousel.owl-theme .owl-controls .owl-page.active span,
 .cl-client-carousel.owl-theme .owl-controls.clickable .owl-page:hover span {
   border-color: transparent;
-  background-color:#0395DE;
-  box-shadow: 0 0 0 3px #0395DE;
+  background-color:#0277BD;
+  box-shadow: 0 0 0 3px #0277BD;
 }
 
 .header-carousel .owl-pagination, .header-carousel .owl-buttons {
@@ -968,7 +976,7 @@ blockquote p {
   Quotes Section 
 ********************************************************* */
 .quotes-icon {
-  color: #0395DE;
+  color: #0277BD;
   font-size: 4em;
   line-height: 1;
   margin-bottom: 27px;
@@ -1042,7 +1050,7 @@ blockquote p {
 }
 
 .post-wrap .post-meta i {
-  color:#0395DE;
+  color:#0277BD;
 }
 
 .post-wrap .post {
@@ -1064,7 +1072,7 @@ blockquote p {
 }
 
 .post-wrap .post p a:hover {
-  background: #0395DE;
+  background: #0277BD;
   color: #fff;
 }
 
@@ -1140,7 +1148,7 @@ blockquote p {
   font-weight: 300;
   margin: 0;
   padding: .6em 0;
-  color:#0395DE;
+  color:#0277BD;
 }
 
 .plan-wrap .title h2.best-plan-title {
@@ -1166,8 +1174,8 @@ blockquote p {
   width: 120px;
   height: 120px;
   margin: 1.5em auto;
-  color:#0395DE;
-  border: 2px solid#0395DE;
+  color:#0277BD;
+  border: 2px solid#0277BD;
 /*border-radius*/
   -webkit-border-radius: 60px;
      -moz-border-radius: 60px;
@@ -1247,7 +1255,7 @@ blockquote p {
 
 .info-counter-icon {
   font-size: 4em;
-  color: #0395DE;
+  color: #0277BD;
 }
 
 .info-counter-content, .info-counter-content h5 {
@@ -1293,7 +1301,7 @@ blockquote p {
 }
 
 #cd-zoom-in:hover, #cd-zoom-out:hover {
-  background-color: #0395DE;
+  background-color: #0277BD;
 }
 
 #cd-zoom-in {
@@ -1319,7 +1327,7 @@ blockquote p {
 }
 
 #cd-rubberBand-in:hover, #cd-rubberBand-out:hover {
-  background-color: #0395DE;
+  background-color: #0277BD;
 }
 
 #cd-rubberBand-in {
@@ -1389,7 +1397,7 @@ address i {
 
 .box-icon i {
   line-height: 45px;
-  color: #0395DE;
+  color: #0277BD;
 }
 
 /* Form, Comments and Contact */
@@ -1468,7 +1476,7 @@ input:not([type=submit]):not([type=file]), textarea {
 }
 
 input:not([type=submit]):not([type=file]):focus, textarea:focus {
-  border-color:#0395DE;
+  border-color:#0277BD;
   outline: none;
 }
 
@@ -1529,7 +1537,7 @@ footer p, footer a {
 .footer-widget li {
   position: relative;
   padding: .6em 0;
-  color: #0395DE;
+  color: #0277BD;
   list-style-type: disc;
 }
 
@@ -1623,7 +1631,7 @@ footer p, footer a {
 }
 
 .staff-info span {
-  color:#0395DE;
+  color:#0277BD;
 }
 
 .staff-img {
@@ -1786,7 +1794,7 @@ footer p, footer a {
   -webkit-animation-delay: 0s;
 }
 .loader .bar:nth-child(2) {
-  background-color: #0395DE;
+  background-color: #0277BD;
   -webkit-animation-delay: .3s;
 }
 .loader .bar:nth-child(3) {
